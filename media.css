@@ -1,0 +1,95 @@
+@media screen and (max-width:800px) {
+    body {
+        background: teal;
+    }
+
+    .dis_block {
+        display: block;
+        margin: 10px;
+        padding: 5px 8px;
+        background: #00000070;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        z-index: 20;
+    }
+
+    nav {
+        position: absolute;
+        flex-direction: column;
+        top: 5rem;
+        right: 0;
+        background: #232525;
+        height: 0vh;
+        justify-content: center;
+        z-index: 10;
+        overflow: hidden;
+        transition: 1.5s all ease;
+    }
+
+    header>div:nth-child(1)>.Container {
+        justify-content: space-between;
+    }
+
+    #menu_chk_box:checked~nav {
+        height: 100vh;
+    }
+
+    #menu_chk_box:not(:checked)~nav {
+        height: 0vh
+    }
+
+    .card_section {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 40%;
+    }
+
+    .profile_det {
+        padding: 0rem;
+    }
+}
+
+
+@media screen and (max-width:676px) {
+    .Hair_Stylish_Container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .Sec5_Container>div:nth-child(1)>div:nth-child(1) {
+        display: none;
+    }
+}
+
+@media screen and (max-width:956px) {
+    form.Appointment_form {
+        padding: 0rem;
+    }
+}
+
+@media screen and (max-width:892px) {
+    .Form_Time_section {
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+    .Time_Day_Section {
+        width: 100%;
+    }
+    .Form_Section{
+        width:100%;
+    }
+}
+@media screen and (max-width:494px)
+{
+    .wid_100_in {
+        width: 100%;
+    }
+}

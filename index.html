@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dropdown Menu</title>
+  <style>
+    /* Navigation bar styling */
+    .navbar {
+      display: flex;
+      background-color: #333;
+      padding: 10px;
+    }
+    .navbar a {
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    /* Dropdown container styling */
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: black;
+      padding: 10px 20px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    /* Show dropdown content on hover */
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    
+    <!-- Dropdown for Services -->
+    <div class="dropdown">
+      <a href="#">Services</a>
+      <div class="dropdown-content">
+        <a href="#">Haircut</a>
+        <a href="#">Shave</a>
+        <a href="#">Beard Styling</a>
+      </div>
+    </div>
+    
+    <!-- Dropdown for Pages -->
+    <div class="dropdown">
+      <a href="#">Pages</a>
+      <div class="dropdown-content">
+        <a href="#">Gallery</a>
+        <a href="#">Pricing</a>
+        <a href="#">Testimonials</a>
+      </div>
+    </div>
+
+    <!-- Dropdown for Contact -->
+    <div class="dropdown">
+      <a href="#">Contact</a>
+      <div class="dropdown-content">
+        <a href="#">Email</a>
+        <a href="#">Phone</a>
+        <a href="#">Location</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

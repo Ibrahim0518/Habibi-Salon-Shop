@@ -1,0 +1,267 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+/* Commmon to all web pages */
+@font-face {
+    font-family: Myfont;
+    src: url("fonts/Cardo99s.ttf");
+}
+
+@font-face {
+    font-family: header_font;
+    src: url("/fonts/cinzel.regular.ttf");
+}
+
+.color1 {
+    color: var(--color3--);
+    /* font-family: header_font; */
+}
+
+:root {
+    --color1--: #b97746;
+    --color2: #b9925a;
+    --color3--: #FFCC76;
+}
+
+.Device_Width {
+    max-width: 1266px;
+    margin: 0 auto;
+    /* border:1px solid red; */
+}
+
+.wid_49 {
+    width: 49%;
+}
+
+.wid_50 {
+    width: 50%;
+}
+
+.wid_100 {
+    width: 100%;
+}
+
+.wid_99 {
+    width: 99%;
+}
+
+.hig_100 {
+    height: 100%;
+}
+
+.txt_center {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+a {
+    display: block;
+}
+
+.dis_none {
+    display: none;
+}
+
+.dis_block {
+    display: block;
+}
+
+/* -------------------------------------- */
+header {
+    /* border: 1px solid red; */
+    position: relative;
+    background: linear-gradient(1deg, #000000cc, #00000080), url(/images/pexels-heyho-7195805.jpg);
+    background-size: cover;
+    background-position: 100%;
+    /* max-height: 80vh; */
+    /* overflow: hidden; */
+}
+
+header>div:nth-child(1) {
+    height: 80px;
+    background: rgba(0, 0, 0, 0.496);
+    position: relative;
+}
+
+header>div:nth-child(1)>.Container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header>div:nth-child(2) {
+    max-width: 1266px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    padding: 6% 2%;
+}
+
+.Container {
+    max-width: 1266px;
+    margin: 0 auto;
+    /* border: 1px solid magenta; */
+}
+
+.background_image {
+    width: 100vw;
+    height: max-content;
+}
+
+/* logo  Section*/
+
+.logo_Container {
+    max-width: 20%;
+    max-height: 100%;
+    position: relative;
+    /* border: 1px solid blue; */
+}
+
+.logo {
+    width: 50%;
+}
+
+
+
+/* Navigation Section*/
+
+nav {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: end;
+}
+
+nav>li {
+    align-self: center;
+    padding: 1rem;
+}
+
+/* Navigation Section */
+.navbar {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ffcc76;
+}
+
+/* Dropdown container styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+/* Show dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Header_text */
+.Header_text {
+    width: 93%;
+}
+
+.Header_text>div:nth-child(1) {
+    margin: 3% 0%;
+}
+
+.Header_text>div:nth-child(2),
+.Header_text>div:nth-child(3) {
+    margin: 1% 0%;
+}
+
+.Header_text>div:nth-child(4) {
+    margin: 2% 0%;
+}
+
+.Booking_btn {
+    padding: 0.9rem 1.5rem;
+    background: transparent;
+    border: 1px solid white;
+}
+
+.Booking_btn:hover {
+    background: white;
+}
+
+.Booking_btn:hover>a {
+    color: black;
+    display: block;
+    height: 100%;
+}
+
+
+
+/* ------------FOOTER SECTION ------------------ */
+
+footer {
+    background: #101010;
+}
+
+.f_logo {
+    width: 10rem;
+    margin: 6px;
+}
+
+.Shop_Details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4.5rem;
+}
+
+.Social_media_Section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.Social_media_Section > a{
+    margin:5px;
+}
+.social_media_icon {
+    width: 37px;
+    padding: 3px;
+    background: white;
+    border-radius: 3px;
+}

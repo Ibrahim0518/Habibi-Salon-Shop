@@ -1,0 +1,322 @@
+.Sec1_Container,
+.Sec3_Container,
+.Sec5_Container {
+    padding: 3rem;
+    background: #202125;
+}
+
+.Sec2_Container,
+.Sec4_Container {
+    padding: 3rem;
+    background: #101010;
+}
+
+
+
+
+.dot {
+    Content: " ";
+    border: 3px solid #FFCC76;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+.Common_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Common_section_icons_size {
+    width: 37px;
+    margin: 0px 10px;
+}
+
+.rotate_51deg {
+    rotate: 51deg;
+}
+
+.Section_header {
+    text-align: center;
+    line-height: 2em;
+}
+
+
+/* Card_Section */
+
+.card_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    text-align: center;
+    line-height: 1rem;
+    margin: 0.7rem;
+    width: 23%;
+}
+
+.Card_img {
+    border: 1px solid #d4894b;
+    padding: 5px;
+    width: 6rem;
+    margin: 0.8rem;
+}
+
+.card_header {
+    margin: 0.8rem;
+}
+
+
+/* Section 2 - Employee Profiles */
+.Hair_Stylish_Container {
+    display: flex;
+    justify-content: center;
+}
+
+.Emp_Card {
+    width: 15em;
+    border: 1px solid gray;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.Profile_image {
+    width: 100%;
+}
+
+.Card_image {
+    width: 100%;
+    height: 82%;
+    overflow: hidden;
+}
+
+.profile_det {
+    height: 18%;
+    padding: 1rem;
+}
+
+/* Section _ 3 Shop_Timimng and Form */
+
+.Form_Time_section {
+    display: flex;
+    margin: 4em 0em;
+}
+
+.Time_Day_Section {
+    width: 50%;
+    line-height: 1.8rem;
+}
+
+.Working_Section,
+.Shop_haliday_section {
+    margin: 1em;
+}
+
+.Working_Section>div,
+.Shop_haliday_section>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Form_Section {
+    width: 50%;
+    /* border: 1px solid yellow; */
+}
+
+.Appointment_form {
+    width: 100%;
+    height: 100%;
+    /* background: maroon; */
+}
+
+form.Appointment_form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    height: auto;
+    padding: 1rem;
+}
+
+.input_bg_change {
+    padding: 0.6rem;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+
+/* Customer review Section */
+
+
+.Customer_review_Container {
+    position: relative;
+    max-width: 789px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.Sliding_Container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.Custom_review {
+    min-width: 100%;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.radio_btn_sec {
+    text-align: center;
+    padding: 10px;
+}
+
+.nav-button {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked~.Sliding_Container {
+    transform: translateX(-100%);
+}
+
+#slide1:checked~.first {
+    transform: translateX(0%);
+}
+
+#slide2:checked~.first {
+    transform: translateX(-100%);
+    margin-left: -200%;
+}
+
+#slide3:checked~.first {
+    transform: translateX(-200%);
+    margin-left: -300%;
+}
+
+input[type="radio"]:checked+.nav-button {
+    background-color: #717171;
+}
+
+
+/* ------- ( )-------- */
+.Sec5_Container {
+    padding: 0rem 3rem;
+}
+
+.Sec5_Container > div:nth-child(1) > div:nth-child(1)
+{
+    position: relative;
+    min-width: 41%;
+    background: url(/images/Barber_image.png) no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+.Sec5_Container > div:nth-child(1) > div:nth-child(1) > img
+{
+    width: 29rem;
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;
+}
+.mgtop_bottom {
+    margin: 0.7rem 0px;
+}
+
+.about_flx {
+    display: flex;
+}
+
+.About_Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 0rem;
+}
+
+.Barber_Shop_report {
+    gap: 2rem;
+    margin: 2rem 0rem;
+    display: flex;
+}
+
+.Customer_reporting_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;;
+}
+
+.client_satisfied_icon {
+    width: 60px;
+}
+
+/* Section_6 */
+
+.Sec6_Container {
+    background: linear-gradient(1deg, #000000cc, #00000080),url(/images/download.jpg);
+    padding: 3rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg_trans_black {
+    background: #000000bd;
+    display: flex;
+    justify-content: space-between;
+}
+
+.officer_Section {
+    width: 74%;
+    margin: 4rem 0rem 4rem 2rem;
+}
+
+.Offers_Profile_Section {
+    width: 300px;
+    position: relative;
+    height: 350px;
+}
+
+
+img.Offer_Profile_img {
+    width: 12rem;
+    position:absolute;
+}
+
+.Offers_Profile_Section>.Offer_Profile_img:nth-child(1) {
+    top: 0;
+    left: 0;
+}
+
+.Offers_Profile_Section>.Offer_Profile_img:nth-child(2) {
+    right: 0;
+    bottom: 0;
+}
+.officer_Section > h1{
+    margin:1rem 0rem;
+}
+
+.officer_Section > p{
+    margin:1rem 0rem;
+}
+
+.vist_Lin {
+    margin: 2rem 0rem;
+    width: fit-content;
+    border: 3px solid gray;
+    padding: 0.8rem 2rem;
+    border-radius: 2px;
+}
+.scissor_stright {
+    rotate: -90deg;
+}
