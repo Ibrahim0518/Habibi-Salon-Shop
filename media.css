@@ -114,4 +114,7 @@
     .card {
         width: 90%;
     }
+    input_bg_change {
+        font-size:1.1rem;
+    }
 }
