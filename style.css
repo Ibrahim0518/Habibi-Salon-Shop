@@ -68,7 +68,7 @@ a {
 }
 
 .dis_none {
-    display: none;
+    display: none !important;
 }
 
 .dis_block {
