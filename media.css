@@ -111,10 +111,35 @@
     .Shop_Details {
         gap: 2.5rem;
     }
+
     .card {
         width: 90%;
     }
+
     input_bg_change {
-        font-size:1.1rem;
+        font-size: 1.1rem;
+    }
+}
+
+
+
+@media screen and (max-width:390px) {
+    .Shop_Details {
+        flex-direction: column;
+    }
+
+    .Barber_Shop_report {
+        flex-direction: column;
+    }
+
+    .Emp_Card {
+        padding: 10px;
+        width: 12em;
+        border: 1px solid gray;
+        text-align: center;
+        margin: 0.5rem;
+        border-radius: 10px;
+        box-shadow: 1px 1px 9px gray;
+
     }
 }
