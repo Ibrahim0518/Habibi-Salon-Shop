@@ -142,4 +142,17 @@
         box-shadow: 1px 1px 9px gray;
 
     }
+
+    .Sec3_Container {
+        padding:3rem  0rem;
+        background: #202125;
+    }
+
+    #Booking{
+        margin: 1rem;
+    }
+    form.Appointment_form {
+        padding: 1rem;
+    }
+
 }
